@@ -17,6 +17,7 @@ from langgraph.graph import StateGraph, END
 load_dotenv()
 
 st.title("Ravinthiran: Amazon Webscraper + Langgraph")
+st.text("Github: https://github.com/ravinthiranpartheepan1407/langgraph_openai_webscraper")
 openai_model = st.sidebar.selectbox("Select GPT model", ["gpt-3.5-turbo-0125", "gpt-3.5-turbo", "gpt-4-0125-preview"])
 openai_key = st.sidebar.text_input("Your OpenAPI Key", type="password")
 
