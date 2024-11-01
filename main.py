@@ -18,6 +18,26 @@ load_dotenv()
 
 st.title("Ravinthiran: Amazon Webscraper + Langgraph")
 st.text("Github: https://github.com/ravinthiranpartheepan1407/langgraph_openai_webscraper")
+st.markdown(
+        """
+        <style>
+        [data-testid="stAppViewContainer"] > .main {
+            background-color: 'black';
+            color: 'white';
+        }
+        [data-testid="stHeader"] {
+            display: none;
+        }
+        [data-testid="stToolbar"] {
+            display: none;
+        }
+        ._profileContainer_1yi6l_53 {
+            display: none;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 openai_model = st.sidebar.selectbox("Select GPT model", ["gpt-3.5-turbo-0125", "gpt-3.5-turbo", "gpt-4-0125-preview"])
 openai_key = st.sidebar.text_input("Your OpenAPI Key", type="password")
 
