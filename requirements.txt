@@ -5,3 +5,5 @@ streamlit
 python-dotenv
 openai
 langchain-openai
+langchain-community
+typing-extensions
